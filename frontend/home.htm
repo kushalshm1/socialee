@@ -2,54 +2,218 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="static/css/main.css">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css"
-    integrity="sha512-YBSrHBAMjFhWHodf0RF58XB/x9lmuwBtyJv1LWDHQa1nOaWNXfG3Etc/lEXfW+qBx8ne79JnzccDs59je/ccVA=="
-    crossorigin="anonymous" />
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
-  <title>Feed - Socialee</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css"
+        integrity="sha512-YBSrHBAMjFhWHodf0RF58XB/x9lmuwBtyJv1LWDHQa1nOaWNXfG3Etc/lEXfW+qBx8ne79JnzccDs59je/ccVA=="
+        crossorigin="anonymous" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="static/js/main.js"></script>
+    <title>Feed - Socialee</title>
 </head>
 
 <body>
-  <nav id="main-nav">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm"><h2 style="font-family: 'Pacifico', cursive;">social-ee</h2></div>
-        <div class="col-sm"><input type="text" placeholder="Search" class="form-control"></div>
-        <div class="col-sm">
-          <h3 style="text-align:right;">
-            <i class="bi bi-house-fill"></i>
-            &nbsp;
-            <i class="bi bi-person"></i>
-            &nbsp;
-            <i class="bi bi-bell"></i>
-          </h3>
+    <!-- header -->
+    <nav id="main-nav" class="sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h2 class="icon-white" style="font-family: 'Pacifico', cursive;">social-ee</h2>
+                </div>
+                <div class="col-sm"><input type="text" placeholder="Search" class="form-control"></div>
+                <div class="col-sm">
+                    <h3 style="text-align:right;">
+                        <i class="bi bi-house-fill icon-white"></i>
+                        &nbsp;
+                        <i class="bi bi-person icon-white"></i>
+                        &nbsp;
+                        <i class="bi bi-bell icon-white"></i>
+                    </h3>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row main-body" align="center">
+            <div class="col-sm-2" id="left-pane">
+                <div class="sidenav">
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/13.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/14.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/15.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/16.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/17.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/18.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/19.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/20.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/21.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" class="story-img">
+                    </div>
+                    <div class="story">
+                        <img src="https://randomuser.me/api/portraits/men/23.jpg" class="story-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm" id="center-pane" align="center">
+                <div class="feed" align="center">
+                    <div class="feed-head">
+                        <i class="bi bi-person-circle"></i><b>&nbsp;kushalshm1</b>
+                    </div>
+                    <div class="feed-photo">
+                        <img class="feed-img" src="https://picsum.photos/536/354">
+                    </div>
+                    <div class="feed-react">
+                        <h2 align="left">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </h2>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="feed" align="center">
+                    <div class="feed-head">
+                        <i class="bi bi-person-circle"></i><b>&nbsp;kushalshm1</b>
+                    </div>
+                    <div class="feed-photo">
+                        <img class="feed-img" src="https://picsum.photos/536/354">
+                    </div>
+                    <div class="feed-react">
+                        <h2 align="left">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </h2>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="feed" align="center">
+                    <div class="feed-head">
+                        <i class="bi bi-person-circle"></i><b>&nbsp;kushalshm1</b>
+                    </div>
+                    <div class="feed-photo">
+                        <img class="feed-img" src="https://picsum.photos/536/354">
+                    </div>
+                    <div class="feed-react">
+                        <h2 align="left">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </h2>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="feed" align="center">
+                    <div class="feed-head">
+                        <i class="bi bi-person-circle"></i><b>&nbsp;kushalshm1</b>
+                    </div>
+                    <div class="feed-photo">
+                        <img class="feed-img" src="https://picsum.photos/536/354">
+                    </div>
+                    <div class="feed-react">
+                        <h2 align="left">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </h2>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="feed" align="center">
+                    <div class="feed-head">
+                        <i class="bi bi-person-circle"></i><b>&nbsp;kushalshm1</b>
+                    </div>
+                    <div class="feed-photo">
+                        <img class="feed-img" src="https://picsum.photos/536/354">
+                    </div>
+                    <div class="feed-react">
+                        <h2 align="left">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </h2>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="feed" align="center">
+                    <div class="feed-head">
+                        <i class="bi bi-person-circle"></i><b>&nbsp;kushalshm1</b>
+                    </div>
+                    <div class="feed-photo">
+                        <img class="feed-img" src="https://picsum.photos/536/354">
+                    </div>
+                    <div class="feed-react">
+                        <h2 align="left">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </h2>
+                    </div>
+                </div>
+
+                <br>
+            </div>
+            <div class="col-sm-3" id="right-pane" align="center"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- <div id="main-footer">
+        &#169; socialee 2021
+    </div> -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
