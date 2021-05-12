@@ -27,6 +27,7 @@
     color: #fff;
 }
 
+
 #left-pane{
     background-color:white;
 }
@@ -38,6 +39,7 @@
     top: 0; /* Stay at the top */
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y:auto;
     padding-top: 70px;
     align-items: center;
   }
