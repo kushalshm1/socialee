@@ -1,5 +1,5 @@
 // Animating login div
-let pages = ['#login-page','#feed-page','#profile-page']
+
 let fadeOutTime = 300;
 let fadeInTime = 1500;
 $(document).ready(function () {
